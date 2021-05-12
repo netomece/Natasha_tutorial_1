@@ -8,11 +8,11 @@ class Converter():
 
     def centimetersToInches(self, centimeter_value):
         # TODO: Person A will implement this method
-        return 0
+        return centimeter_value/2.54
     
     def celsiusToFahrenheit(self, celsius_value):
         # TODO: Person B will implement this method
-        return 0
+        return (celsius_value * (9/5)) + 32
 
     def kilogramsToPounds(self, kilogram_value):
         # TODO: Person C will implement this method
